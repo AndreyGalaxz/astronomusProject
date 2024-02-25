@@ -1,0 +1,57 @@
+body {
+    background-color: #282828;
+}
+
+.barraHeader {
+    display: flex; 
+    font-family: "Roboto", sans-serif;
+    background-color: #282828;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.barraHeader section ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.barraHeader section ul li {
+    padding: 10px;
+}
+
+
+
+
+
+
+.barraHeader p, svg {
+    transition: color 1s;
+    transition: 1s;
+    transform: translateX(0) scale(1);
+    color: wheat;
+    fill:wheat;
+    letter-spacing: 0;
+}
+#lupaIcon {
+    width: auto;
+    height: 30px;
+}
+
+
+p:hover, svg:hover { 
+    transform: translateX(0) scale(1.3);
+    color:white;
+    fill: white;
+    letter-spacing: 3px;
+}
+
+.blur {
+    filter: blur(10px);
+}
